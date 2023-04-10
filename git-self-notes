@@ -1,3 +1,7 @@
 1. git init vs git clone
 - git init creates a empty .git folder in order to act working directory as a git repository
 - git clone - clones the code and already made .git repository in local
+2. fork vs clone
+- forking a repository from repo A creates a different .git file than repo B in which it is forked . Both will have different .git states.
+If we want add our work on top of someone else's repo , we should go for fork. in this way scope increases. 
+- Cloning a repository means .git state will be same in both the repos. any changes made will be reflected back and forth.
